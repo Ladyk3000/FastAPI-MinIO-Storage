@@ -31,7 +31,7 @@ docker-compose up
 
 This will start the FastAPI application on port 80 and the mini-storage on port 9000. You can access the application by navigating to the following URL in your web browser:
 ```
-http://localhost:8000/
+http://localhost/
 ```
 
 ### Usage
@@ -39,13 +39,13 @@ http://localhost:8000/
 Once you have the application running, you can use it to upload and download files from the mini-storage. 
 To upload a file, navigate to the upload page: 
 ```
-http://localhost:8000//uploadfile/
+http://localhost/uploadfile/
 ```
 and click on the "Upload File" button. This will take you to a form where you can select a file to upload. 
 After selecting the file, click on the "Upload" button to upload the file to the mini-storage.
 
 To download a file, navigate to the download page:
 ```
-http://localhost:8000//downloadfile/
+http://localhost/downloadfile/
 ```
 choose file from list of files in bucket and click to filename to download it.
